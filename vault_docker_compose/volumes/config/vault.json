@@ -4,7 +4,7 @@
       "region": "us-east-1",
       "access_key": "AWS_access_key"",
       "secret_key": "AWS_secret_key",
-      "bucket": "fuchicorp-bucket"
+      "bucket": "bucket-name"
     }
   },
   "listener": {

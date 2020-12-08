@@ -1,0 +1,17 @@
+{
+  "backend": {
+    "s3": {
+      "region": "us-east-1",
+      "access_key": "AWS_access_key"",
+      "secret_key": "AWS_secret_key",
+      "bucket": "fuchicorp-bucket"
+    }
+  },
+  "listener": {
+    "tcp":{
+      "address": "0.0.0.0:8200",
+      "tls_disable": 1
+    }
+  },
+  "ui": true
+}
